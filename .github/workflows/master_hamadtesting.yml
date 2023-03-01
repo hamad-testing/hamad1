@@ -60,4 +60,4 @@ jobs:
           app-name: 'hamadtesting'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_83E20889225247ECAF042C19C73E5D07 }}
-          package: ${{env.DOTNET_ROOT}}/myapp
+          package: '.'
